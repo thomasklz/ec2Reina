@@ -1,0 +1,38 @@
+{
+  "name": "reinado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.33.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^11.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abel677/Espam-reinado-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abel677/Espam-reinado-Backend/issues"
+  },
+  "homepage": "https://github.com/abel677/Espam-reinado-Backend#readme",
+  "description": ""
+}
